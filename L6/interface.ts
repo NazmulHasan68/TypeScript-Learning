@@ -113,15 +113,15 @@
 
 
 //optional (?)
-interface Named {
-    readonly name : string;
-    optputName ? :string
-}
+// interface Named {
+//     readonly name : string;
+//     optputName ? :string
+// }
 
-class Person implements Named {
-    name : string;
-    optputName?: string | undefined;
-    constructor (n:string){
-        this.name = n
-    }
-}
+// class Person implements Named {
+//     name : string;
+//     optputName?: string | undefined;
+//     constructor (n:string){
+//         this.name = n
+//     }
+// }
