@@ -56,35 +56,54 @@
 //     }
 // }
 //Inheritence 
-class Department {
-    constructor(id, name) {
-        this.name = name;
-    } // readOnly you only inisitalized in onle time
-    describe() {
-        console.log("Department", this.name);
-    }
-    addEmployee(emp) {
-        this.employee.push(emp);
-    }
-    printEmployeeInformation() {
-        console.log("Number of em ", this.employee.length);
-        console.log(this.employee);
-    }
-}
-class AccountingDepertment extends Department {
-    constructor(id, reports = []) {
-        super(id, "acc");
-        this.reports = reports;
-    }
-    addReports(text) {
-        this.reports.push(text);
-    }
-    printReports() {
-        console.log(this.reports);
-    }
-}
-const assDep = new AccountingDepertment("yes", []);
-assDep.describe();
-assDep.addReports("boss");
-assDep.printReports();
+// class Department {
+//     constructor (id:string, protected name:string){ } // readOnly you only inisitalized in onle time
+//     describe (){
+//         console.log("Department", this.name);
+//     }
+//     addEmployee(emp:string){
+//         this.employee.push(emp)
+//     }
+//     printEmployeeInformation (){
+//         console.log("Number of em ",this.employee.length);
+//         console.log(this.employee);
+//     }
+// }
+// class AccountingDepertment extends Department{
+//     constructor (id:string, private reports :string[] = []){
+//         super(id, "acc", )
+//     }
+//     addReports(text:string){
+//         this.reports.push(text)
+//     }
+//     printReports(){
+//         console.log(this.reports);  
+//     }
+//     addEmployee(emp: string): void {
+//         if(emp === "nazmul "){
+//             return 
+//         }
+//         this.addEmployee.push()
+//     }
+// }
+// const assDep = new AccountingDepertment("yes", [])
+// assDep.describe()
+// assDep.addReports("boss")
+// assDep.printReports()
 // overrid properties & protected access modifier
+//setter & getter method
+//static method
+// class Department {
+//     constructor (id:string, protected name:string){ } // readOnly you only inisitalized in onle time
+//     describe (){
+//         console.log("Department", this.name);
+//     }
+//     addEmployee(emp:string){
+//         this.employee.push(emp)
+//     }
+//     printEmployeeInformation (){
+//         console.log("Number of em ",this.employee.length);
+//         console.log(this.employee);
+//     }
+// }
+//!abstract classess

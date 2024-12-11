@@ -108,6 +108,6 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "exclude": ["analytics.ts", "node_modules"], //"*dev.ts" , "*/*.dev.ts"
-  "include": ["interface.ts", "clasess.ts"]
+  "exclude": ["analytics.ts", "node_modules", "clasess.ts"], //"*dev.ts" , "*/*.dev.ts"
+  "include": ["interface.ts", ]
 }
